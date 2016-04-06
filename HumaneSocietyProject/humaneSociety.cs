@@ -65,7 +65,7 @@ namespace HumaneSocietyProject
                 Store.purchaseAnimal();
                     
 
-                //ice Ice = new ice(); Console.WriteLine("Ice purchased total: " + Ice.buyIce());
+                
 
 
             }
