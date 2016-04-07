@@ -51,12 +51,10 @@
     <Compile Include="wallet.cs" />
     <Compile Include="cage.cs" />
     <Compile Include="shots.cs" />
-    <Compile Include="..\..\..\..\..\Desktop\petStore.cs">
-      <Link>petStore.cs</Link>
-    </Compile>
     <Compile Include="trackAnimals.cs" />
     <Compile Include="employee.cs" />
     <Compile Include="dog.cs" />
+    <Compile Include="petStore.cs" />
     <Compile Include="person.cs" />
     <Compile Include="program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

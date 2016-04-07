@@ -59,13 +59,17 @@ namespace HumaneSocietyProject
                 Console.WriteLine("Enter the weight of the animal");
                 string animalWeight = Console.ReadLine();
 
-                //Console.WriteLine("Employee: {0} {1}", Employee.firstName, Employee.lastName);
+                Store.purchaseAnimal();
+                Console.ReadLine();
+                
+
+                Console.WriteLine("Employee: {0} {1}", Employee.firstName, Employee.lastName);
                 //catOrDog CatOrDog = new catOrDog(); Console.WriteLine("Adding animal: " + );
                 //shots Shots = new shots(animalShots); Console.WriteLine();
-                Store.purchaseAnimal();
-                    
 
-                
+
+
+
 
 
             }
@@ -80,6 +84,8 @@ namespace HumaneSocietyProject
                 string employee = Console.ReadLine();
                 Console.WriteLine("{0}, are you adopting a cat, dog or both today? (enter: dog, cat or both", Adopter.firstName);
                 string catOrDog = Console.ReadLine();
+                Console.WriteLine("Enter the weight of the cat/dog that you adopted today:");
+                string animalWeight = Console.ReadLine();
 
                 //Console.WriteLine("Here is a list of our dogs in our system");
                 //string getDogList = Console.ReadLine();
@@ -87,10 +93,10 @@ namespace HumaneSocietyProject
                 //string getCatList = Console.ReadLine();
 
                 Store.adoptAnimal();
+                Console.ReadLine();
+                Console.WriteLine("Thank you for your purchase!");
 
-
-                Console.WriteLine("Enter the weight of the cat/dog that you adopted today:");
-                string animalWeight = Console.ReadLine();
+                
 
 
 
